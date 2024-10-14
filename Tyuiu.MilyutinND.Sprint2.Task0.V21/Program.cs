@@ -3,7 +3,7 @@
 //которая вернет логическую последовательность(массив): (False, False, False, False, False, False), при x = 1705, y = 775
 Console.Title = "Спринт #2 | Выполнил: Милютин Н. Д. | СМАРТб-24-1";
 Console.WriteLine("***************************************************************************");
-Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Спринт #2                                                               *");
 Console.WriteLine("* Тема: Операции сравнения                                                *");
 Console.WriteLine("* Задание #0                                                              *");
 Console.WriteLine("* Вариант #21                                                             *");
