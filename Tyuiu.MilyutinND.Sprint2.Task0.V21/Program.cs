@@ -37,5 +37,16 @@
 //    Console.WriteLine(res[i]);
 //}
 //Console.ReadKey();
-bool c = (5 > 6) || (4 > 6);
-Console.WriteLine(c);
+int x = 0, y = 0;
+
+x = Convert.ToInt32(Console.ReadLine());
+
+y = Convert.ToInt32(Console.ReadLine());
+
+int z = y - x;
+
+if ((z > 0) && (y < 0)) z = 2 * z;
+
+z += 1;
+
+Console.WriteLine(z);
