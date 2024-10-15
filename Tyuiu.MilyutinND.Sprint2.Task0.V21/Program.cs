@@ -37,11 +37,8 @@
 //    Console.WriteLine(res[i]);
 //}
 //Console.ReadKey();
-int y = 0, k = 7;
+int x = 15;
 
-if (k > 0) if (k > 10) y = 1;
-
-    else y = 2;
-else y = 3;
+int y = (x <= 0) || (x >= 10) ? 1 + x * 5 : 10 - 2 * x;
 
 Console.WriteLine(y);
