@@ -37,16 +37,11 @@
 //    Console.WriteLine(res[i]);
 //}
 //Console.ReadKey();
-int x = 0, y = 0;
+int y = 0, k = 7;
 
-x = Convert.ToInt32(Console.ReadLine());
+if (k > 0) if (k > 10) y = 1;
 
-y = Convert.ToInt32(Console.ReadLine());
+    else y = 2;
+else y = 3;
 
-int z = y - x;
-
-if ((z > 0) && (y < 0)) z = 2 * z;
-
-z += 1;
-
-Console.WriteLine(z);
+Console.WriteLine(y);
