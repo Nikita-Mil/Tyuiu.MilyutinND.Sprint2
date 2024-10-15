@@ -28,4 +28,6 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine("" + res);
+Console.WriteLine("Значение функции = " + res);
+
+Console.ReadKey();
