@@ -73,6 +73,7 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Lib
             }
 
             string res = Convert.ToString(n) + "." + Convert.ToString(m) + "." + Convert.ToString(g);
+
             return res;
         }
     }
