@@ -1,4 +1,4 @@
-﻿using Tyuiu.MilyutinNM.Sprint2.Task5.V12.Lib;
+﻿using Tyuiu.MilyutinND.Sprint2.Task5.V12.Lib;
 //Написать программу, которая использует оператор switch вычисляет требуемое значение и возвращает результат.
 //Условие: Дата некоторого дня характеризуется тремя натуральными числами: g(год), m(порядковый номер месяца)
 // и n(число). По заданным g, n и m определить дату предыдущего дня. Заданный год является високосным.
@@ -34,4 +34,4 @@ Console.WriteLine("*************************************************************
 
 string res = Convert.ToString(ds.FindDateOfPreviousDay(g, m, n));
 Console.WriteLine(res);
-Console.ReadLine();
+Console.ReadKey();
