@@ -25,6 +25,7 @@ DataService ds = new DataService();
 
 int n = Convert.ToInt32(Console.ReadLine());
 
+
 int m = Convert.ToInt32(Console.ReadLine());
 int g = Convert.ToInt32(Console.ReadLine());
 
