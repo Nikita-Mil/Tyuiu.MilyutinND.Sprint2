@@ -10,11 +10,11 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Test
         {
             DataService ds = new DataService();
 
-            int g = 2000;
-            int m = 1;
-            int n = 5;
+            int g = 2024;
+            int m = 09;
+            int n = 07;
             string res = ds.FindDateOfPreviousDay(g, m, n);
-            string wait = Convert.ToString(5 + "." + 12 + "." + 1999);
+            string wait = Convert.ToString(6 + "." + 9 + "." + 2024);
 
             Assert.AreEqual(wait, res);
         }
