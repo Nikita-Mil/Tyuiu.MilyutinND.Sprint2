@@ -6,7 +6,7 @@ DataService ds = new DataService();
 Console.Title = "Спринт #2 | Выполнил: Милютин Н. Д. | СМАРТб-24-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #2                                                               *");
-Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+Console.WriteLine("* Тема: Вложенные операторы if - else                                     *");
 Console.WriteLine("* Задание #3                                                              *");
 Console.WriteLine("* Вариант #5                                                              *");
 Console.WriteLine("* Выполнил: Милютин Никита Дмитриевич | СМАРТб-24-1                       *");
