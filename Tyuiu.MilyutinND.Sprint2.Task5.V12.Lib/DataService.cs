@@ -13,18 +13,18 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Lib
             switch (m)
             {
                 case 1:
-                    m = 12;
+                    m = 012;
                     g -= 1;
                     break;
                 case 3:
                     if (n == 1)
                     {
-                        m = 2;
-                        n = 28;
+                        m = 02;
+                        n = 028;
 
                         if (IsLeapYear(resG))
                         {
-                            n = 29;
+                            n = 029;
                         }
                     }
                     else
@@ -41,8 +41,8 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Lib
                 case 11:
                     if (n == 1)
                     {
-                        m -= 1;
-                        n = 31;
+                        m -= 01;
+                        n = 031;
                     }
                     else
                     {
@@ -56,8 +56,8 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Lib
                 case 12:
                     if (n == 1)
                     {
-                        m -= 1;
-                        n = 30;
+                        m -= 01;
+                        n = 030;
                     }
                     else
                     {
@@ -72,7 +72,7 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Lib
                 return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
             }
 
-            string res = Convert.ToString(n) + "." + Convert.ToString(m) + "." + Convert.ToString(g);
+            string res = "0" + Convert.ToString(n) + "." + "0" + Convert.ToString(m) + "." + Convert.ToString(g);
 
             return res;
         }
