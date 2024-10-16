@@ -37,28 +37,18 @@
 //    Console.WriteLine(res[i]);
 //}
 //Console.ReadKey();
-int x = 3;
-
-int y = 0;
-
-switch (x)
+int Termin()
 
 {
 
-    case -3:
+    int a = 1;
 
-    case -2:
+    int b = 3;
 
-    case -1: y = -x; break;
+    if (a != 5) return a + b;
 
-    case 0: y = 5; break;
-
-    case 3:
-
-    case 2:
-
-    case 1: y = 2 * x; break;
+    else return 0;
 
 }
-Console.WriteLine(y);
+Console.WriteLine(Termin);
 
