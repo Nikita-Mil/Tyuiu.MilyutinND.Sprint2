@@ -14,7 +14,7 @@ namespace Tyuiu.MilyutinND.Sprint2.Task5.V12.Test
             int m = 09;
             int n = 07;
             string res = ds.FindDateOfPreviousDay(g, m, n);
-            string wait = Convert.ToString(6 + "." + 9 + "." + 2024);
+            string wait = Convert.ToString(06 + "." + 09 + "." + 2024);
 
             Assert.AreEqual(wait, res);
         }
